@@ -9,67 +9,58 @@
     <title>Michael Swanson</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" 
-    integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
 
 </head>
 
 <body>
 
-        <!-- Profile Picture Modal -->
-        <div id="myModal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-        
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <img class="img-fluid img-thumbnail" src="22990388.jpg">
-                </div>
-        
+    <!-- Profile Picture Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <img class="img-fluid img-thumbnail" src="22990388.jpg">
             </div>
+
         </div>
-        <!-- SnapChat Modal -->
-        <div id="myscModal" class="modal fade" role="dialog">
-                <div class="modal-dialog">
-            
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <img class="img-fluid img-thumbnail" src="Snapchat-646855753.jpg">
-                    </div>
-            
-                </div>
-            </div>
+    </div>
 
     <div class="container">
         <header class="header clearfix">
             <nav>
                 <ul class="nav nav-pills float-right">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index.html">Home</a>
-                            <span class="sr-only">(current)</span>
-                            </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                            </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                    </ul>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                        <span class="sr-only">(current)</span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </nav>
             <h3 class="text-muted">Michael Swanson</h3>
-        
+
         </header>
 
         <main role="main">
 
             <div class="jumbotron">
                 <div class="col-lg-3 col-md-4 col-xs-6">
-                        <a href="#" class="d-block mb-4 h-100" data-toggle="modal" data-target="#myModal">
-                          <img class="img-fluid img-thumbnail" src="22990388.jpg">
-                        </a>
+                    <a href="#" class="d-block mb-4 h-100" data-toggle="modal" data-target="#myModal">
+                        <img class="img-fluid img-thumbnail" src="22990388.jpg">
+                    </a>
                 </div>
                 <h1 class="display-3">Welcome!</h1>
                 <p class="lead">I'm a student at San Francisco State University. This is a website to share some details about me!</p>
-                <p>You can find a copy of my resume <a href="resume.pdf">here.</a></p>
+                <p>You can find a copy of my resume
+                    <a href="resume.pdf">here.</a>
+                </p>
             </div>
 
         </main>
@@ -77,35 +68,31 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
-                    <h2>Latest Projects</h2>
+                    <h3>
+                        <a href="https://github.com/matheusportela/rapid-io-hackathon" title="Github Repository">Rapid.io Hackathon</a>
+                    </h3>
+                    <h5 class="text-muted">Summer 2017</h5>
+                    <p>
+                        This was at a hackathon hosted by Rapid.io, they're a database company that was showcasing their new realtime database, which
+                        at the time was in closed beta. I had a great time, worked with great people. I won't sugarcoat myself,
+                        our project turned out pretty ehh, we were working on a dashboard that would be able to sort and
+                        reappropriate objects based on changing values.
+                    </p>
+                    <hr>
+                    <h3>
+                        <a href="https://github.com/Swabisan/Battleship" title="Github Repository">Battleship!</a>
+                    </h3>
+                    <h5 class="text-muted">Fall 2016</h5>
+                    <p>
+                        I worked on this sideproject to help me understand the rougher grasps of programming, this is a terminal based java program
+                        that emulates the classic boardgame Battleship! I developed the entire thing along with some help
+                        from a friend/ mentor who I consulted for advice along the way, this is probably my first full attempt
+                        at creating something like this, current this project is pretty messy at it's current state, the
+                        current version of the game is fully functional but the maintainability of the code leaves a bit
+                        to be desired. Now that I understand the finer points of functional programming I would like to rerwite
+                        this program. Rewriting Battleship! has been on my to do list for quite some time now.
+                    </p>
                 </div>
-            </div>
-        </div>
-
-        <div class="row marketing">
-            <div class="col-lg-8">
-                <h4>
-                    <a href="https://github.com/Swabisan/Battleship" title="Github Repository">Rapid.io Hackathon</a>
-                </h4>
-                <p>
-                     The last hackathon I participated in was over the summer of 2017 with Rapid.io, they're a database company that was showcasing
-                    their new realtime database, which at the time was in closed beta. I had a great time, worked with great people. I won't
-                    sugarcoat myself, our project turned out pretty ehh, we were working on a dashboard that would be able to sort and reappropriate
-                    objects based on changing values.
-                </p>
-            </div>
-            <div class="col-lg-8">
-                <h4>
-                    <a href="https://github.com/Swabisan/Battleship" title="Github Repository">Battleship!</a>
-                </h4>
-                <p>
-                     In the fall of 2016 I worked on a sideproject to help me understand the rougher grasps of programming, this is a terminal
-                    based java program that emulates the classic boardgame Battleship! I developed the entire thing along with some help from
-                    a friend/ mentor who I consulted for advice along the way, this is probably my first full attempt at creating something like
-                    this, current this project is pretty messy at it's current state, the current version of the game is fully functional but
-                    the maintainability of the code leaves a bit to be desired. Now that I understand the finer points of functional programming
-                    I would like to rerwite this program. Rewriting Battleship! has been on my to do list for quite some time now.
-                </p>
             </div>
         </div>
 
