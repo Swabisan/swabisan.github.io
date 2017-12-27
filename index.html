@@ -11,7 +11,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
         crossorigin="anonymous">
-
+    <link href="bootstrap.css" rel="stylesheet">
+    <!-- stylesheet -->
+    <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
@@ -31,13 +33,13 @@
     <div class="container">
         <header class="header clearfix">
             <nav>
-                <ul class="nav nav-pills float-right">
+                <ul class="nav nav-tabs float-right">
                     <li class="nav-item">
                         <a class="nav-link active" href="index.html">Home</a>
                         <span class="sr-only">(current)</span>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" href="resume.pdf" target="_blank">Resume</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
@@ -48,22 +50,22 @@
 
         </header>
 
-        <main role="main">
-
-            <div class="jumbotron">
-                <div class="col-lg-3 col-md-4 col-xs-6">
-                    <a href="#" class="d-block mb-4 h-100" data-toggle="modal" data-target="#myModal">
-                        <img class="img-fluid img-thumbnail" src="22990388.jpg">
-                    </a>
-                </div>
-                <h1 class="display-3">Welcome!</h1>
-                <p class="lead">I'm a student at San Francisco State University. This is a website to share some details about me!</p>
-                <p>You can find a copy of my resume
-                    <a href="resume.pdf">here.</a>
-                </p>
+        <div class="jumbotron">
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="#" class="d-block mb-4 h-100" data-toggle="modal" data-target="#myModal">
+                    <img class="img-fluid img-thumbnail" src="22990388.jpg">
+                </a>
             </div>
-
-        </main>
+            <div class="welcome">
+                <div class="wcontent">
+                    <h1 class="display-3">Welcome!</h1>
+                    <p class="lead">I'm a student at San Francisco State University. This is a website to share some details about me!</p>
+                    <p>You can find a copy of my resume
+                        <a href="resume.pdf" class="resume" target="_blank">here.</a>
+                    </p>
+                </div>
+            </div>
+        </div>
 
         <div class="container">
             <div class="row">
@@ -73,10 +75,11 @@
                     </h3>
                     <h5 class="text-muted">Summer 2017</h5>
                     <p>
-                        This was at a hackathon hosted by Rapid.io, they're a database company that was showcasing their new realtime database, which
-                        at the time was in closed beta. I had a great time, worked with great people. I won't sugarcoat myself,
-                        our project turned out pretty ehh, we were working on a dashboard that would be able to sort and
-                        reappropriate objects based on changing values.
+                         This was at a hackathon hosted by Rapid.io, they're a database company that was showcasing their new realtime database,
+                        which at the time was in closed beta. I had a great time, worked with great people. The project that we were working on was
+                        a dashboard that would be able to sort and reapportion objects based on changes in their values. After a multitude of obsticles
+                        and pitfalls we were able to get a modest tech demo working, however 24 hour crunch was much more draining than anticipated,
+                        it might be a little while until I go to another hackathon!
                     </p>
                     <hr>
                     <h3>
@@ -84,13 +87,12 @@
                     </h3>
                     <h5 class="text-muted">Fall 2016</h5>
                     <p>
-                        I worked on this sideproject to help me understand the rougher grasps of programming, this is a terminal based java program
-                        that emulates the classic boardgame Battleship! I developed the entire thing along with some help
-                        from a friend/ mentor who I consulted for advice along the way, this is probably my first full attempt
-                        at creating something like this, current this project is pretty messy at it's current state, the
-                        current version of the game is fully functional but the maintainability of the code leaves a bit
-                        to be desired. Now that I understand the finer points of functional programming I would like to rerwite
-                        this program. Rewriting Battleship! has been on my to do list for quite some time now.
+                         I worked on this sideproject to help me understand the rougher grasps of programming, this is a terminal based java program
+                        that emulates the classic boardgame Battleship! I developed the entire thing along with some help from a friend/ mentor who
+                        I consulted for advice along the way, this is probably my first full attempt at creating something like this, current this
+                        project is pretty messy at it's current state, the current version of the game is fully functional but the maintainability
+                        of the code leaves a bit to be desired. Now that I understand some of the finer points of functional programming I would
+                        like to rerwite this program. Rewriting Battleship! has been on my to do list for quite some time now.
                     </p>
                 </div>
             </div>
@@ -100,7 +102,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-md-10 mx-auto">
-                        <hr>
+                        <br>
                         <p class="copyright text-muted">Forward any questions to michaelrogerswanson@gmail.com</p>
                     </div>
                 </div>

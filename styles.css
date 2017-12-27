@@ -1,0 +1,37 @@
+.jumbotron {
+    background-image: url("1024x1024.png");
+    background-repeat: no-repeat;
+    background-color: gainsboro;
+    background-position-x: 50%;
+}
+.welcome {
+    background-color: #593196;
+    margin-left: calc(50% - 50vw);
+    width: 100vw;
+    color: azure;
+}
+
+a.resume {
+    color: sandybrown;
+}
+a.resume:hover {
+    color: lightblue;
+}
+
+.wcontent {
+    position: auto;
+    margin-left: 13.5%;
+}
+
+footer {
+    padding: 50px 0 65px; 
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+main {
+    width: 700px ;
+    margin-left: auto ;
+    margin-right: auto ;
+}
